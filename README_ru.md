@@ -46,7 +46,7 @@ docker run --rm \
   -e SOURCE_EU_AUTH_PASSWORD \
   -e SOURCE_EU_AUTH_DBNAME \
   -e SOURCE_EU_AUTH_DBTYPE \
-  ghcr.io/tapclap/redash-configurator:v0.1.0
+  ghcr.io/tapclap/redash-configurator:v0.0.1
 ```
 
 Неверная конфигурация сразу завершает процесс с ненулевым кодом. Ошибка API или подключения позже пишется в лог, и процесс ждёт следующего интервала.

@@ -46,7 +46,7 @@ docker run --rm \
   -e SOURCE_EU_AUTH_PASSWORD \
   -e SOURCE_EU_AUTH_DBNAME \
   -e SOURCE_EU_AUTH_DBTYPE \
-  ghcr.io/tapclap/redash-configurator:v0.1.0
+  ghcr.io/tapclap/redash-configurator:v0.0.1
 ```
 
 Invalid configuration exits immediately with a non-zero status. A later API or connection error is logged, and the process keeps running until the next interval.

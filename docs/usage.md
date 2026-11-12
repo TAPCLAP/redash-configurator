@@ -86,7 +86,7 @@ spec:
     spec:
       containers:
         - name: redash-configurator
-          image: ghcr.io/tapclap/redash-configurator:v0.1.0
+          image: ghcr.io/tapclap/redash-configurator:v0.0.1
           env:
             - name: REDASH_URL
               value: https://redash.example.com
